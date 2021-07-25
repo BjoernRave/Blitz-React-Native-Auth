@@ -1,0 +1,108 @@
+# dependencies
+node_modules
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+.npm
+web_modules/
+
+# blitz
+.blitz
+.next
+*.sqlite
+*.sqlite-journal
+.now
+.blitz-console-history
+blitz-log.log
+
+# misc
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+.envrc
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+.coverage
+*.lcov
+.nyc_output
+lib-cov
+
+# Caches
+*.tsbuildinfo
+.eslintcache
+.node_repl_history
+.yarn-integrity
+
+# Serverless directories
+.serverless/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+ios/Pods/
+
+# Expo
+.expo/
+web-build/

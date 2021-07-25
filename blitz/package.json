@@ -1,0 +1,51 @@
+{
+  "name": "blitz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "blitz dev",
+    "build": "blitz build",
+    "start": "blitz start",
+    "studio": "blitz prisma studio",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepare": "husky install"
+  },
+  "prisma": {
+    "schema": "db/schema.prisma"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@prisma/client": "2.25.0",
+    "blitz": "0.38.2",
+    "final-form": "4.20.2",
+    "passport-google-oauth20": "2.0.0",
+    "passport-twitter": "1.0.4",
+    "react": "alpha",
+    "react-dom": "alpha",
+    "react-final-form": "6.5.3",
+    "zod": "3.2.0"
+  },
+  "devDependencies": {
+    "@types/preview-email": "2.0.0",
+    "@types/react": "17.0.11",
+    "eslint": "7.29.0",
+    "husky": "6.0.0",
+    "lint-staged": "10.5.4",
+    "prettier": "2.3.2",
+    "prettier-plugin-prisma": "0.12.1",
+    "pretty-quick": "3.1.1",
+    "preview-email": "3.0.4",
+    "prisma": "2.25.0",
+    "typescript": "~4.3"
+  },
+  "private": true
+}
